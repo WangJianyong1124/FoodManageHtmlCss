@@ -1,0 +1,38 @@
+.left {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3f3f3f;
+}
+
+.left img {
+    width: 80%;
+    display: block;
+    margin: 50px auto;
+}
+
+.left li {
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 30px;
+    border-bottom: 1px solid #2b2b2b;
+    cursor: pointer;
+}
+
+.left li i {
+    margin-right: 20px;
+}
+
+.left li.active, .left li:hover {
+    background-color: #2b2b2b;
+}
+.right {
+    min-height: 100vh;
+    background-color: #e0e3e8;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    margin-left: 300px;
+}

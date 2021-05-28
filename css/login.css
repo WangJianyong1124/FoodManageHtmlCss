@@ -1,0 +1,76 @@
+#wrap {
+    height: 100vh;
+    display: flex;
+    /*竖着排列*/
+    flex-direction: column;
+    /*对齐 居中*/
+    align-items: center;
+    justify-content: center;
+
+    background: #0a0909 url("../images/login_bg.jpg") no-repeat center;
+
+    /*一个图片铺满全屏*/
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+#wrap p {
+    position: relative;
+    display: flex;
+    width: 550px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 30px;
+    line-height: 55px;
+}
+
+#wrap label {
+    width: 130px;
+    background-color: #ff8400;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#wrap input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    color: #b2b2b2;
+    padding-left: 10px;
+    border-radius: 0 30px 30px 0;
+
+}
+
+#wrap .tips {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 16px;
+    color: #f00;
+}
+
+/*修改placeholder的样式*/
+input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+}
+
+#wrap button {
+    width: 120px;
+    height: 55px;
+    margin: 0 10px;
+    background-color: #ff8400;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+#wrap button:nth-child(2){
+    background-color: #cc2e2a;
+}

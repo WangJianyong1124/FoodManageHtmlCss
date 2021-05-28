@@ -1,0 +1,90 @@
+@import url('./common/subBar.css');
+
+body {
+    height: 100vh;
+
+    background: linear-gradient(90deg, rebeccapurple, darkorange) !important;
+    background-size: cover;
+    /*背景图片固定 不会跟着滚动条滚动*/
+    background-attachment: fixed;
+}
+
+#content {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    bottom: 20px;
+    left: 300px;
+    background-color: rgba(255, 255, 255, .2);
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    overflow: hidden;
+}
+
+.legent {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.legent li {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.legent li div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.legent li div i {
+    font-size: 25px;
+}
+
+.legent li:nth-child(1) div,
+.table div {
+    background-color: #66a8a6;
+}
+
+.legent li:nth-child(2) div,
+.table .ordering div {
+    background-color: #f88100;
+}
+
+.legent li:nth-child(3) div,
+.table .eating div {
+    background-color: #e5553f;
+}
+
+.table {
+    width: 90%;
+    margin: 40px auto 0;
+}
+
+.table li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 0 50px 55px;
+    /*margin: 0 37px 50px;*/
+    cursor: pointer;
+}
+
+.table div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.table div i {
+    font-size: 80px;
+}
