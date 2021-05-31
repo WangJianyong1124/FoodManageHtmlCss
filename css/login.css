@@ -48,13 +48,13 @@
 }
 
 #wrap .tips {
+    display: none;
     position: absolute;
     top: 0;
     right: 20px;
     font-size: 16px;
     color: #f00;
 }
-
 /*修改placeholder的样式*/
 input::placeholder {
     color: #ccc;
